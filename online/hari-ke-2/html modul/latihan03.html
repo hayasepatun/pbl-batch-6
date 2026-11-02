@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Pelatihan IT - BBPVP Bandung</title>
+</head>
+<body>
+
+    <h1>Form Pendaftaran Pelatihan IT</h1>
+    <h2>BBPVP Bandung</h2>
+
+    <form>
+
+        <!-- Data Diri -->
+        <fieldset>
+            <legend>Data Diri Peserta</legend>
+
+            <p>
+                Nama Lengkap:<br>
+                <input type="text" name="nama" placeholder="Masukkan nama lengkap">
+            </p>
+
+            <p>
+                Email:<br>
+                <input type="email" name="email" placeholder="Masukkan email">
+            </p>
+
+            <p>
+                Nomor HP:<br>
+                <input type="text" name="hp" placeholder="08xxxxxxxxxx">
+            </p>
+
+            <p>
+                Jenis Kelamin:<br>
+                <input type="radio" name="jk"> Laki-laki
+                <input type="radio" name="jk"> Perempuan
+            </p>
+
+        </fieldset>
+
+        <!-- Program -->
+        <fieldset>
+            <legend>Program Pelatihan</legend>
+
+            <p>
+                Pilih Program:<br>
+                <select name="program">
+                    <option value="web programming">Web Programming</option>
+                    <option value="ui/ux design">UI/UX Design</option>
+                    <option value="data analyst">Data Analyst</option>
+                    <option value="cyber security">Cyber Security</option>
+                </select>
+            </p>
+
+            <p>
+                Metode Belajar:<br>
+                <input type="checkbox" name="metode"> Online
+                <input type="checkbox" name="metode"> Offline
+            </p>
+
+        </fieldset>
+
+        <!-- Tambahan -->
+        <fieldset>
+            <legend>Informasi Tambahan</legend>
+
+            <p>
+                Alamat:<br>
+                <textarea name="alamat" rows="4" cols="30"></textarea>
+            </p>
+
+            <p>
+                Upload CV:<br>
+                <input type="file" name="cv">
+            </p>
+
+        </fieldset>
+
+        <!-- Persetujuan -->
+        <p>
+            <input type="checkbox" name="setuju">
+            Saya menyetujui data yang diisi adalah benar
+        </p>
+
+        <!-- Tombol -->
+        <p>
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+
+</body>
+</html>

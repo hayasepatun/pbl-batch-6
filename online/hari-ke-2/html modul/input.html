@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>CONTOH FORM</h2>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <!-- Nama -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <!-- Jenis Kelamin -->
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <!-- Hobi -->
+            <label for="hobby">Hobbies:</label><br>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="swimming" name="hobby" value="swimming">
+            <label for="swimming">Swimming</label><br>
+            <input type="checkbox" id="coding" name="hobby" value="coding">
+            <label for="coding">Coding</label><br><br>
+            <!-- Fav Color -->
+            <label for="favcolor">Favorite Color:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            <!-- Tanggal Lahir -->
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <!-- Pendidikan Terakhir -->
+            <label for="education">Last Education:</label><br>
+            <select id="education" name="education">
+                <option value="sd">SD</option>
+                <option value="smp">SMP</option>
+                <option value="sma">SMA</option>
+                <option value="kuliah">D3</option>
+                <option value="kuliah">S1</option>
+                <option value="kuliah">S2</option>
+            </select><br><br>            
+            <!-- Tombol Submit & Reset -->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
